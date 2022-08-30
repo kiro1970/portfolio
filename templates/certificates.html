@@ -1,0 +1,35 @@
+{% extends 'layout.html' %}
+
+{% block content %} 
+    <!--Certifications and skills-->
+    <section style="background: rgba(91, 149, 241, 0.712);" class="text-white mt-5" id="skill">
+        <h2 class="section__title section__title--skill text-center"><b>My skills and certifications</b></h2>
+        <p class="section__subtitle section__subtitle--about"></p>
+        <div class="skills__body">
+            <p></p>
+            <p></p>
+        </div>
+        <div class="row container-fluid">
+            <div class="col-6">
+                <img  style="height: 500px; width: 750px;" src="{{url_for('static', filename='codingtemplecert.jpg')}} "/>
+                
+            </div>
+            <div class="col-6">
+                <div class="ms-lg-5">
+                    <h3>While attending Coding Academy's Fullstack Developer course, I learned and worked with the following technologies.</h3>
+                </div>
+                    <div class="m-2 text-center">
+                        <img class="m-2" style="height: 75px; width: 75px;" src="{{url_for('static', filename='html-logo.png')}} "/>
+                        <img class="m-2" style="height: 75px; width: 75px;" src="{{url_for('static', filename='css-logo.png')}} "/>
+                        <img class="m-2" style="height: 75px; width: 75px;" src="{{url_for('static', filename='python-logo.png')}} "/>
+                        <img class="m-2" style="height: 75px; width: 75px;" src="{{url_for('static', filename='javascript-logo.png')}} "/>
+                        <img class="m-2" style="height: 75px; width: 75px;" src="{{url_for('static', filename='postgresql-logo.png')}} "/>
+                        <img class="m-2" style="height: 75px; width: 75px;" src="{{url_for('static', filename='react-logo.png')}} "/>
+                        <img class="m-2" style="height: 75px; width: 75px;" src="{{url_for('static', filename='flask-logo.png')}} "/>
+                    </div>
+                    <h3 class="text-center">... and working on adding more!</h3>
+            </div>
+        </div>
+        
+    </section>
+{% endblock %}

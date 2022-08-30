@@ -1,0 +1,144 @@
+.intro {
+    background: rgba(91, 149, 241, 0.712);
+    position: relative;
+    margin-top: 185px;
+    margin-left: 75px;
+    margin-right: 1000px;
+    size: 150px, 200px;
+    text-decoration-color: whitesmoke;
+    border-radius: 5px;
+}
+
+.layout-nav {
+    background: rgba(91, 149, 241, 0.925);
+}
+
+/*Navbar*/
+nav li {
+    display: inline-block;
+
+}
+
+.whitebelt:hover {
+    background-color: white;
+    transition: ease-in 0.3s;
+}
+.bluebelt:hover {
+    background-color: blue;
+    transition: ease-in 0.3s;
+}
+
+.purplebelt:hover {
+    background-color: purple;
+    transition: ease-in 0.3s;
+}
+
+.brownbelt:hover {
+    background-color: brown;
+    transition: ease-in 0.3s;
+}
+
+
+.blackbelt:hover {
+    background-color: black;
+    transition: ease-in 0.3s;
+}
+
+/* Index page styles */
+.btncontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.enter {
+    height:50px;
+    width:300px;
+    border: 5px black;
+    margin-top: 15px;
+    margin-left: 40px;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-shadow: inset 0 0 0 0 white;
+    transition: ease-out 0.5s;
+    outline: none;
+}
+
+.enter:hover {
+    box-shadow: inset 300px 0 0 0 black;
+    cursor: pointer;
+    color: red;
+  }
+
+  /*Projects page styling*/
+  .projectcard {
+    width: 25%;
+    height: 400px;
+
+  }
+
+  .project {
+    padding: 50px;
+    background-color: #b7c9b7b2;
+    transition: transform .4s; /* Animation */
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+  }
+  
+  .project:hover {
+    transform: scale(1.25); 
+  }
+
+  /*Resume Page styles*/
+  .collapsible {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+
+  .active, .collapsible:hover {
+    background-color: #ccc;
+  }
+
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
+
+  .dload {
+    background-color: white;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 5px;
+  }
+  
+  .dload:hover {
+    background-color: whitesmoke;
+  }
+
+  /*Links Page styles*/
+  .links {
+    background: rgba(91, 149, 241, 0.712);
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
